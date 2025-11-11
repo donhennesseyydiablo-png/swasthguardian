@@ -1,12 +1,42 @@
 {
   "items": [
     {
-      "brand": "MuscleGain X",
-      "fssai_id": "FAK12345",
+      "brand": "Dr. Morepen Omega 3",
+      "ingredient": "Omega 3",
+      "price": 450,
+      "dosage_mg": 250,
+      "rda_mg": 500,
+      "hidden_underdose_prob": 30,
+      "verified": true,
+      "risk_reason": "Slightly under RDA, minor probability of hidden underdosage",
+      "risk_score": 25,
+      "safe_alternative": "Nordic Naturals Omega 3",
+      "updated": "2025-11-11"
+    },
+    {
+      "brand": "HerbalMax Pure",
+      "ingredient": "Ashwagandha",
+      "price": 480,
+      "dosage_mg": 500,
+      "rda_mg": 500,
+      "hidden_underdose_prob": 5,
+      "verified": true,
+      "risk_reason": "Meets RDA",
+      "risk_score": 10,
+      "safe_alternative": "Same brand (verified)",
+      "updated": "2025-11-11"
+    },
+    {
+      "brand": "AyurStrong Plus",
+      "ingredient": "Ashwagandha",
+      "price": 520,
+      "dosage_mg": 1500,
+      "rda_mg": 1200,
+      "hidden_underdose_prob": 50,
       "verified": false,
-      "risk_reason": "Fake FSSAI ID, under recall 2024",
-      "risk_score": 85,
-      "safe_alternative": "OptiProtein by XYZ Labs",
+      "risk_reason": "Overdose detected, heavy metals",
+      "risk_score": 90,
+      "safe_alternative": "HerbalMax Pure",
       "updated": "2025-11-11"
     }
   ]
