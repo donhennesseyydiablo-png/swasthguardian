@@ -1,0 +1,13 @@
+{
+  "items": [
+    {
+      "brand": "MuscleGain X",
+      "fssai_id": "FAK12345",
+      "verified": false,
+      "risk_reason": "Fake FSSAI ID, under recall 2024",
+      "risk_score": 85,
+      "safe_alternative": "OptiProtein by XYZ Labs",
+      "updated": "2025-11-11"
+    }
+  ]
+}
